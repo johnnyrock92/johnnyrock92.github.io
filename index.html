@@ -1,53 +1,313 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Johnnyrock92.GitHub.io by johnnyrock92</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Johnnyrock92.GitHub.io</h1>
-      <h2 class="project-tagline"></h2>
-    </section>
+<!DOCTYPE HTML>
+<html lang="pl">
+	<head>
+	    <meta charset="utf-8" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <!--
+      <meta name="description" content="Przed Tobą spis moich ulubionych filmów. Sprawdź, czy znasz je wszystkie. Uczta dla kinomaniaka!" />
+      <meta name="keywords" content="film, kino, najlepsze filmy, top filmy" />
+      -->
+	    
+	    <title>Janusz Schonrock - Portfolio</title>
+      <!-- FAVICON -->
+      <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
+      <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
+      <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96" />
+      <link rel="icon" type="image/png" href="img/favicon/favicon-160x160.png" sizes="160x160" />
+      <link rel="icon" type="image/png" href="img/favicon/favicon-196x196.png" sizes="196x196" />
+       
+      <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png" />
+      <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png" />
+      <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png" />
+      <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png" />
+      <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png" />
+      <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png" />
+      <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png" />
+      <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png" />
+       
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png">
+	    <!-- CSS -->
+	    <!-- BOOTSTRAP CSS -->
+	    
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/modal.css" type="text/css">
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+		<!-- Optional theme BOOTSTRAP -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    	<link rel="stylesheet" href="css/bootstrap-social.css">
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+		<!-- LOCAL CSS -->
+		<link rel="stylesheet" href="mainstyle.css" type="text/css">
+		<link rel="stylesheet" href="css/animate.css" type="text/css">
+	    
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+		<!-- JS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<!-- BOOTSTRAP JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+		<!-- LOCAL JS -->
+		<script src="js/animate.js"></script>
+    	
+		<!-- FANCYBOX -->
+		<!-- Add mousewheel plugin (this is optional) -->
+	        <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+	        <!-- Add fancyBox -->
+	        <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+	        <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
 
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+	        <!-- Optionally add helpers - button, thumbnail and/or media -->
+	        <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+	        <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+	        <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js6"></script>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+	        <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+	        <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+	      	<script type="text/javascript">
+	        $(document).ready(function() {
+	          $(".fancybox").fancybox();
+	        });
+	      	</script>
 
-      <footer class="site-footer">
+	      	<!-- HEIGHT SCRIPT -->
+	      	<script>
+			  $(document).ready(function() {
+			  
+			        var h = window.innerHeight;
+			        var y = h / 2;
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+			        $(".category_size").css({"height": +y+"px"});
 
-    </section>
 
-  
-  </body>
+			        var w = window.innerWidth;
+			  if (w < 415) {
+			    $("h1").css({"font-size": "1.9em"});
+			    $("h2").css({"font-size": "1.5em"});
+			    $(".kolo").css({"width":"200px", "height":"200px"});
+			  };
+			  });
+			</script>
+	</head>
+	<body>
+		<!-- CATEGORY  -->
+		<a href="" data-toggle="modal" data-target="#modal-fullscreen-red">
+    		<div class="col-md-6 col-sm-6 col-xs-6 logo_category category_size" id="go">
+      			<h1 class="text-center category_font" id="block">Logo</br><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span></h1>
+    		</div>
+  		</a>
+  		<a href="" data-toggle="modal" data-target="#modal-fullscreen-green">
+    		<div class="col-md-6 col-sm-6 col-xs-6 webdesign_category category_size">
+      			<h1 class="text-center category_font">WebDesign</br><span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span></h1>
+    		</div>
+  		</a>
+  		<a href="" data-toggle="modal" data-target="#modal-fullscreen-blue">
+		    <div class="col-md-6 col-sm-6 col-xs-6 fotoedit_category category_size">
+		      	<h1 class="text-center category_font">Foto Edit</br><span class="glyphicon glyphicon-picture" aria-hidden="true"></span></h1>
+
+		    </div>
+  		</a>
+		 <a href="" data-toggle="modal" data-target="#modal-fullscreen-yellow">
+		    <div class="col-md-6 col-sm-6 col-xs-6 contact_category category_size">
+		 	    <h1 class="text-center category_font">Kontakt</br><span class="glyphicon glyphicon-comment" aria-hidden="true"></span></h1>
+		    </div>
+ 		</a>
+ 		<div class="text-center kolo disable-select">
+    		<div class="title_position">
+    			<h1 class="title_position_h1">Janusz Schönrock</h1>
+
+    				<h2>Myśl kreatywnie</h2>
+            <h1><i class="fa fa-lightbulb-o"></i></h1>
+
+  			</div>
+    	</div>
+
+ 		<!-- CATEGORY INSIDE -->
+  		<div class="modal modal-fullscreen fade red disable-select" id="modal-fullscreen-red" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-remove"></span><span class="sr-only">Close</span></button>
+		        <h1 class="modal-title category" id="myModalLabel">Logo</h1>
+		      </div>
+		      <div class="modal-body">
+		      	<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+	                <a class="thumbnail fancybox" rel="logo-group" href="img/logo/1logo.png">
+	                    <img class="img-responsive" src="img/logo/1logo_sm.png" alt="">
+	                </a>
+            	</div>
+
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="logo-group" href="img/logo/2logo.png">
+                    <img class="img-responsive" src="img/logo/2logo_sm.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="logo-group" href="img/logo/3logo.png">
+                    <img class="img-responsive" src="img/logo/3logo_sm.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="logo-group" href="img/logo/4logo.png">
+                    <img class="img-responsive" src="img/logo/4logo_sm.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="logo-group" href="img/logo/5logo.png">
+                    <img class="img-responsive" src="img/logo/5logo_sm.png" alt="">
+                </a>
+            </div>
+
+
+		      </div>
+     		 	
+    		</div>
+  		  </div>
+		</div>
+
+		<div class="modal modal-fullscreen fade green disable-select" id="modal-fullscreen-green" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-remove"></span><span class="sr-only">Close</span></button>
+		        <h1 class="modal-title category" id="myModalLabel">WebDesign</h1>
+		      </div>
+		      <div class="modal-body">
+		        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="webdesign-group" href="img/webdesign/webdesign1b.jpg">
+                    <img class="img-responsive" src="img/webdesign/webdesign1b_sm.jpg" alt="">
+                </a>
+            	</div>
+ 				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="webdesign-group" href="img/webdesign/webdesign2b.jpg">
+                    <img class="img-responsive" src="img/webdesign/webdesign2b_sm.jpg" alt="">
+                </a>
+          		</div>
+				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="webdesign-group" href="img/webdesign/webdesign3b.jpg">
+                    <img class="img-responsive" src="img/webdesign/webdesign3b_sm.jpg" alt="">
+                </a>
+          		</div>
+		      </div>
+     		 	
+    		</div>
+  		  </div>
+		</div>
+
+		<div class="modal modal-fullscreen fade blue disable-select" id="modal-fullscreen-blue" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-remove"></span><span class="sr-only">Close</span></button>
+		        <h1 class="modal-title category" id="myModalLabel">Foto Edit</h1>
+		      </div>
+		      <div class="modal-body">
+		        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="fotoedit-group" href="img/fotoedit/1praca.jpg">
+                    <img class="img-responsive" src="img/fotoedit/1praca_sm.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="fotoedit-group" href="img/fotoedit/2praca.jpg">
+                    <img class="img-responsive" src="img/fotoedit/2praca_sm.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="fotoedit-group" href="img/fotoedit/3praca.jpg">
+                    <img class="img-responsive" src="img/fotoedit/3praca_sm.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="fotoedit-group" href="img/fotoedit/4praca.jpg">
+                    <img class="img-responsive" src="img/fotoedit/4praca_sm.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="fotoedit-group" href="img/fotoedit/5praca.jpg">
+                    <img class="img-responsive" src="img/fotoedit/5praca_sm.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="fotoedit-group" href="img/fotoedit/6praca.jpg">
+                    <img class="img-responsive" src="img/fotoedit/6praca_sm.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="fotoedit-group" href="img/fotoedit/7praca.jpg">
+                    <img class="img-responsive" src="img/fotoedit/7praca_sm.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="fotoedit-group" href="img/fotoedit/8praca.jpg">
+                    <img class="img-responsive" src="img/fotoedit/8praca_sm.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="fotoedit-group" href="img/fotoedit/9praca.jpg">
+                    <img class="img-responsive" src="img/fotoedit/9praca_sm.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 thumb">
+                <a class="thumbnail fancybox" rel="fotoedit-group" href="img/fotoedit/10praca.jpg">
+                    <img class="img-responsive" src="img/fotoedit/10praca_sm.jpg" alt="">
+                </a>
+            </div>
+		      </div>
+     		 	
+    		</div>
+  		  </div>
+		</div>
+
+		<div class="modal modal-fullscreen fade yellow disable-select" id="modal-fullscreen-yellow" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-remove"></span><span class="sr-only">Close</span></button>
+		        <h1 class="modal-title category" id="myModalLabel">Kontakt</h1>
+		      </div>
+		      <div class="modal-body">
+		        <div class="container">
+      <div class="row text-center">
+          <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+            
+
+
+            <div class="box_contact">
+              <div class="col-lg-12">
+                    <img class="photo_profile" src="img/profile.png" alt="">
+                    <div class="intro-text">
+                        <span class="name"></span>
+                        <hr class="star-light">
+                        <span class="skills"><h2>Grafik - Web Designer</h2></span>
+                    </div>
+                </div>
+            <h4>Znajdziesz mnie na:</h4>
+             
+             <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-12">
+              <a class="btn btn-social-icon btn-facebook btn-lg" href="https://www.facebook.com/janusz.schonrock">
+    <span class="fa fa-facebook"></span>
+  </a> </br>Janusz Schonrock
+             
+            
+              </div>
+            </div>
+          </div><!-- /.col-md-3 col-sm-4 col-xs-12 -->
+          
+      </div><!-- /.row -->
+    </div>
+		      </div>
+     		 	
+    		</div>
+  		  </div>
+		</div>
+
+<script src="js/modal_script.js"></script>
+	</body>
 </html>
